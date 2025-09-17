@@ -1,0 +1,12 @@
+.english-fonts {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* bangla fonts  */
+.bangla-fonts {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
