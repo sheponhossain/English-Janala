@@ -65,12 +65,12 @@
 
     <!-- banar section here -->
 
-    <section>
-        <div class=" w-11/12 mx-auto flex">
+    <section class="">
+        <div class=" w-11/12 mx-auto md:flex">
             <!-- left side content -->
-            <div class=" w-1/2 my-auto">
+            <div class=" md:w-1/2 my-auto">
                 <h1 class="font-bold text-4xl my-4"> <span class="text-sky-500">English</span> is Easy!!</h1>
-                <p class="my-4 bangla-fonts w-[520px] text-md">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি
+                <p class="my-4 bangla-fonts md:w-[520px] text-md">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি
                     নতুন হন অথবা
                     আপনার
                     দক্ষতা বাড়াতে
@@ -87,8 +87,8 @@
             </div>
 
             <!-- right side image -->
-            <div class=" w-1/2 grid items-end justify-end">
-                <img class="h-[534px]" src="./assets/hero-student.png" alt="">
+            <div class=" md:w-1/2 grid md:justify-end">
+                <img class=" md:h-[534px]" src="./assets/hero-student.png" alt="">
             </div>
         </div>
     </section>
@@ -98,10 +98,16 @@
         <div class="text-center my-16 english-fonts">
             <h1 class="text-5xl "> <span class="text-sky-500">Let's</span> Learn Vocabularies</h1>
         </div>
-        <div class="">
-            <a class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Lesson - 1</a></li>
+        <div id="lesson-btn" class="flex gap-5 flex-wrap justify-center ">
+
         </div>
+
+        <div class="bg-gray-300 h-20 my-14"></div>
     </section>
+
+
+    <!-- link javascript -->
+    <script src="./src/index.js"></script>
 </body>
 
 </html>
